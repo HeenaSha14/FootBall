@@ -1,0 +1,50 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FootBall</title>
+    <link rel="stylesheet" href="design.css">
+    <script src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <img src="assets/OIP.jpg" alt="" class="profile-icon" height="150px" width="150px">
+                <span class="name" id="team1name">ARSENAL</span>
+                <div class="row roundruns" id="team1roundruns">
+                    <div class="dot" id="qIndex"></div>
+                    <div class="dot" id="qIndex"></div>
+                    <div class="dot" id="qIndex"></div>
+                    <div class="dot" id="qIndex"></div>
+                    <div class="dot" id="qIndex"></div>
+                    <div class="dot" id="qIndex"></div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="row score">
+                    <span id="team1score">0</span>
+                    <span>-</span>
+                    <span id="team2score">0</span>
+                </div>
+            </div>
+            <div class="col">
+                <img src="assets/hhh.jpg" alt="" class="pic" height="150px" width="150px">
+                <span class="name" id="team2name">LIVERPOOL</span>
+                <div class="row round-runs" id="team2roundruns">
+                    <div class="dot" id="qIndex"></div>
+                    <div class="dot" id="qIndex"></div>
+                    <div class="dot" id="qIndex"></div>
+                    <div class="dot" id="qIndex"></div>
+                    <div class="dot" id="qIndex"></div>
+                    <div class="dot" id="qIndex"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <button type="button" id="btn1" onclick="history.go(0)">START AGAIN</button>
+            <button id="strikebutton" onclick="handleStrike()">Liverpool Strike</button>
+        </div>
+        <div class="row" id="result" hidden=""></div>
+    </div>
+
+</body></html>
